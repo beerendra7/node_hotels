@@ -12,7 +12,9 @@ app.use(bodyParser.json())
 
 app.get('/', (req, res) => {
     res.send("welcome to hotel")
-});
+});a
+// comment add
+
 
 
 // import personroute
