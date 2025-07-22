@@ -13,9 +13,6 @@ app.use(bodyParser.json())
 app.get('/', (req, res) => {
     res.send("welcome to hotel")
 });
-// comment addeded
-
-
 
 // import personroute
 const personroute = require('./routes/personroute.js')
