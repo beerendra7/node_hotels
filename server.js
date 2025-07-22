@@ -12,8 +12,8 @@ app.use(bodyParser.json())
 
 app.get('/', (req, res) => {
     res.send("welcome to hotel")
-});a
-// comment added
+});
+// comment addeded
 
 
 
