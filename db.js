@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 // define the mongo db url
-const mongoURL='mongodb+srv://beerendrar711:fXnCEuEwMOyv7mrz@cluster0.hw4f1gp.mongodb.net/test'
-// const mongoURL = 'mongodb://localhost:27017/hotel'
+// const mongoURL='mongodb+srv://beerendrar711:fXnCEuEwMOyv7mrz@cluster0.hw4f1gp.mongodb.net/test'
+const mongoURL = 'mongodb://localhost:27017/hotel'
 // set up mongodb connection
 mongoose.connect(mongoURL)
 // get default connection 
