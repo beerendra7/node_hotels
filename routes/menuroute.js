@@ -51,11 +51,12 @@ router.put('/:id', async (req, res) => {
             new: true, 
             runValidators: true
         })
+         console.log('updated');
+        res.status(200).json(respond)
         if (!respond) {
             return res.status(404).json({ error: 'menu not found' })
         }
-        console.log('updated');
-        res.status(200).json(respond)
+       
     } catch (error) {
         console.log(error);
         res.status(500).json({ error: 'internal server error' })
