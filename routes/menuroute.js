@@ -46,7 +46,7 @@ router.get('/:tastetype', async (req, res) => {
 router.put('/:id', async (req, res) => {
     try {
         const menuid = req.params.id;
-        const updatemenu = req.rody;
+        const updatemenu = req.body;
         const respond = await menuitem.findByIdAndUpdate(menuid, updatemenu, {
             new: true, 
             runValidators: true
